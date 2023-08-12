@@ -1,0 +1,237 @@
+/* HEADER */
+
+.header {
+  padding-right: 115px;
+  padding-left: 108px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-link {
+  margin-right: 108px;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 15px;
+}
+
+.sitenav-link {
+  font-family: "Manrope" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sitenav-btn {
+  width: 205px;
+  height: 54px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 9px;
+  margin-left: 159px;
+  background: linear-gradient(122deg, #f32c4c 29.57%, #cb1d95 85.47%);
+  color: var(--unnamed, #fff);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+/* MAIN */
+
+/* HERO */
+.hero {
+  padding-left: 113px;
+  padding-right: 100px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  padding-left: 113px;
+}
+
+.hero-text {
+  padding-top: 115px;
+}
+.hero-title {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px;
+}
+.hero-title-s {
+  color: var(--unnamed, #333);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+.hero-p {
+  color: var(--unnamed, #333);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.hero-btn {
+  padding-top: 29px;
+}
+.btn-n {
+  width: 241px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 250px;
+  background: #77b2d3;
+  color: var(--unnamed, #fff);
+  border: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-right: 10px;
+}
+.btn-nn {
+  width: 114px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 250px;
+  background: #77b2d3;
+  color: var(--unnamed, #fff);
+  border: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-right: 9px;
+}
+.btn-nnn {
+  width: 141px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 250px;
+  background: #77b2d3;
+  color: var(--unnamed, #fff);
+  border: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.hero-img {
+  padding-left: 97px;
+  padding-right: 100px;
+  padding-top: 122px;
+  width: 573px;
+  height: 325px;
+  flex-shrink: 0;
+}
+
+/* INFO */
+
+.info {
+  margin-top: 141px;
+  margin-right: 220px;
+}
+.info-container {
+  width: 1150px;
+  height: 254px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--unnamed, #fff);
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.info-title {
+  padding-top: 40px;
+  margin-left: 55px;
+  color: var(--unnamed, #333);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.info-list {
+  display: flex;
+  align-items: center;
+}
+
+.info-p {
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 53px;
+}
+.info-pp {
+  color: var(--unnamed, #333);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 53px;
+  padding-top: 3px;
+}
+.border-solid {
+  width: 1px;
+  height: 86px;
+  background: #c7c7c7;
+  margin-left: 63px;
+}
+.info-ppp {
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Manrope;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  margin-left: 50px;
+}
+.p {
+  font-family: Manrope;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info-pppp {
+  margin-left: 50px;
+  font-family: Manrope;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
